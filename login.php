@@ -25,7 +25,7 @@
 
   }else{
     $_SESSION['logged'] = true;
-    $_SESSION['user'] = $login;    
+    $_SESSION['user'] = $login;
     header('Location: index.php');
     exit;
   };  

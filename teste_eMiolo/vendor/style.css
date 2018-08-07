@@ -17,8 +17,9 @@
 }
 
 .dadosPlanet {
-	font-family: monospace;
+	  font-family: monospace;
     font-size: 22px;
+    text-align: center;
 }
 
 .loader {

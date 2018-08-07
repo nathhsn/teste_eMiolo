@@ -131,16 +131,16 @@
             <img src="teste_eMiolo/img/geonosis.jpg" title="Geonosis" onclick="request('planets/11')" class="planet" style="float: left;width: 150px;">
         </div>
 
-        <div id="dadosPlanetas" style="float: left;width: 60%;background-color: #d8d8d8eb;border-radius: 10%;display: none; height: 70%;position: absolute;margin: 50px 0 15px 30%; padding: 20px;"><span id="x" style="color: white;background-color: black;padding: 5px 10px 5px 10px;border-radius: 50%;float: right;">x</span>
+        <div id="dadosPlanetas" style="float: left;width: 60%;background-color: #d8d8d8eb;border-radius: 10%;display: none; height: 70%;position: absolute;margin: 50px 0 15px 30%; padding: 20px;"><span class="x" style="color: white;background-color: black;padding: 5px 10px 5px 10px;border-radius: 50%;float: right;">x</span>
 
             <p class="namePlanet" style="text-align: center; color: black;" id="name"></p>
-            <p class="dadosPlanet" style="text-align: center;">Diâmetro do planeta: <span id="diameter"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Rotação completa em seu eixo: <span id="rotation"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Órbita de sua estrela local: <span id="orbital"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Gravidade: <span id="gravity"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">População média: <span id="population"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Clima: <span id="climate"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Terreno: <span id="terrain"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Diâmetro do planeta: </span><span style="font-size: 18px;" id="diameter"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Rotação completa em seu eixo: </span><span style="font-size: 18px;" id="rotation"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Órbita de sua estrela local: </span><span style="font-size: 18px;" id="orbital"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Gravidade: </span><span style="font-size: 18px;" id="gravity"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">População média: </span><span style="font-size: 18px;" id="population"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Clima: </span><span style="font-size: 18px;" id="climate"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Terreno: </span><span style="font-size: 18px;" id="terrain"></span></p>
         </div>
 
 
@@ -165,18 +165,18 @@
         </div>
 
 
-        <div id="dadosNaves" style="float: left;width: 60%;background-color: #d8d8d8eb;border-radius: 10%;display: none; height: 90%;position: absolute;margin: 50px 0 15px 30%; padding: 20px;"><span id="x" style="color: white;background-color: black;padding: 5px 10px 5px 10px;border-radius: 50%;float: right;">x</span>
+        <div id="dadosNaves" style="float: left;width: 60%;background-color: #d8d8d8eb;border-radius: 10%;display: none; height: 90%;position: absolute;margin: 50px 0 15px 30%; padding: 20px;"><span class="x" style="color: white;background-color: black;padding: 5px 10px 5px 10px;border-radius: 50%;float: right;">x</span>
 
             <p class="namePlanet" style="text-align: center; color: black;" id="namenave"></p>
-            <p class="dadosPlanet" style="text-align: center;">Modelo: <span id="model"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Classe desta nave espacial: <span id="class"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Fabricante: <span id="fabricante"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Custo da nave nova: <span id="custo"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Tamanho: <span id="length"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Número de pessoas necessárias para pilotar: <span id="crew"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Velocidade máxima na atmosfera: <span id="max_speed"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Classe de naves estelares: <span id="hyperdrive_rating"></span></p>
-            <p class="dadosPlanet" style="text-align: center;">Pode transportar no máximo: <span id="cargo_capacity"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Modelo: </span><span style="font-size: 18px;" id="model"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Classe desta nave espacial: </span><span style="font-size: 18px;" id="class"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Fabricante: </span><span style="font-size: 18px;" id="fabricante"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Custo da nave nova: </span><span style="font-size: 18px;" id="custo"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Tamanho: </span><span style="font-size: 18px;" id="length"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Número de pessoas necessárias para pilotar: </span><span style="font-size: 18px;" id="crew"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Velocidade máxima na atmosfera: </span><span style="font-size: 18px;" id="max_speed"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Classe de naves estelares: </span><span style="font-size: 18px;" id="hyperdrive_rating"></span></p>
+            <p class="dadosPlanet"><span style="font-weight: bold;">Pode transportar no máximo: </span><span style="font-size: 18px;" id="cargo_capacity"></span></p>
         </div>
 
           
@@ -208,12 +208,13 @@
 
     });
 
-    $('#x').on('click', function(){inicio
+    $('.x').on('click', function(){
         $('#dadosPlanetas').hide();
         $('#dadosNaves').hide();
         $('#dadosUsuarios').hide();
     });
 
+   
     $('#planets').on('click', function(){
         $('#planetas').css('display', 'block');   
         $('#naves').css('display', 'none');              
