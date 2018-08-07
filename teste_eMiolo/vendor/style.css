@@ -1,0 +1,43 @@
+.planet {
+	float: left;
+	margin-bottom: 10px;
+    width: 150px;
+}
+
+.navesEst {
+	float: left;
+	margin-bottom: 20px;
+    width: 235px;
+}
+
+.namePlanet {
+    font-size: 23px;
+    color: #fdbf07;
+    font-family: monospace;
+}
+
+.dadosPlanet {
+	font-family: monospace;
+    font-size: 22px;
+}
+
+.loader {
+  border: 10px solid white;
+  border-radius: 50%;
+  border-top: 13px solid #fdbf07;
+    width: 90px;
+    height: 90px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
